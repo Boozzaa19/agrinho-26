@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AgroTurismo Brasil - Turismo Rural e Agroturismo Ecológico: Conectando Pessoas à Natureza. Descubra experiências autênticas no campo brasileiro.">
+    <meta name="keywords" content="turismo rural, agroturismo, ecoturismo, sustentabilidade, fazenda, natureza, Brasil">
+    <title>AgroTurismo Brasil | Turismo Rural e Agroturismo Ecológico</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="#inicio" class="logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                    <path d="M20 8C20 8 12 16 12 22C12 26.4183 15.5817 30 20 30C24.4183 30 28 26.4183 28 22C28 16 20 8 20 8Z" fill="currentColor"/>
+                    <path d="M20 14V26M16 20H24" stroke="var(--bg-primary)" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">AgroTurismo <span>Brasil</span></span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#beneficios" class="nav-link">Benefícios</a></li>
+                    <li><a href="#atividades" class="nav-link">Atividades</a></li>
+                    <li><a href="#noticias" class="nav-link">Notícias</a></li>
+                    <li><a href="#tendencias" class="nav-link">Tendências</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <span class="hero-badge animate-on-scroll">Experiências Autênticas no Campo</span>
+            <h1 class="hero-title animate-on-scroll">Turismo Rural e Agroturismo Ecológico</h1>
+            <p class="hero-subtitle animate-on-scroll">Conectando Pessoas à Natureza</p>
+            <p class="hero-description animate-on-scroll">
+                Descubra o encanto do campo brasileiro através de experiências sustentáveis 
+                que unem lazer, educação ambiental e valorização da cultura rural.
+            </p>
+            <div class="hero-buttons animate-on-scroll">
+                <a href="#atividades" class="btn btn-primary">Explorar Atividades</a>
+                <a href="#contato" class="btn btn-secondary">Planeje sua Viagem</a>
+            </div>
+            <div class="hero-stats animate-on-scroll">
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Fazendas Parceiras</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">27</span>
+                    <span class="stat-label">Estados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50mil+</span>
+                    <span class="stat-label">Visitantes/ano</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#sobre" aria-label="Rolar para baixo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Introdução / Sobre -->
+    <section class="section section-intro" id="sobre">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-content animate-on-scroll">
+                    <span class="section-badge">Sobre o Tema</span>
+                    <h2 class="section-title">Reconectando-se com a Terra</h2>
+                    <p class="intro-text">
+                        O turismo rural e o agroturismo ecológico são modalidades de turismo que aproximam as 
+                        pessoas da natureza, da cultura local e das atividades realizadas no campo. Em um mundo 
+                        cada vez mais urbanizado, muitas pessoas procuram experiências que proporcionem 
+                        contato com o meio ambiente, tranquilidade e aprendizado sobre a produção de alimentos.
+                    </p>
+                    <p class="intro-text">
+                        Além de oferecer lazer aos visitantes, essas atividades ajudam a gerar renda para as 
+                        famílias rurais e incentivam a preservação dos recursos naturais. Dessa forma, o turismo 
+                        rural sustentável se torna uma importante ferramenta para promover o desenvolvimento 
+                        econômico sem comprometer o meio ambiente.
+                    </p>
+                    <a href="#beneficios" class="btn btn-outline">Conheça os Benefícios</a>
+                </div>
+                <div class="intro-image animate-on-scroll">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&h=400&fit=crop" alt="Campo verde com montanhas ao fundo" loading="lazy">
+                    </div>
+                    <div class="image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O que é -->
+    <section class="section section-what" id="oque">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <span class="section-badge">Conceitos</span>
+                <h2 class="section-title">O que é Turismo Rural e Agroturismo Ecológico?</h2>
+            </div>
+            
+            <div class="what-grid">
+                <div class="what-card animate-on-scroll">
+                    <div class="what-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                            <polyline points="9,22 9,12 15,12 15,22"/>
+                        </svg>
+                    </div>
+                    <h3>Turismo Rural</h3>
+                    <p>
+                        Engloba diversas atividades realizadas no meio rural, como hospedagem em 
+                        fazendas, gastronomia típica, passeios a cavalo, trilhas ecológicas, visitas 
+                        a plantações e participação em festas tradicionais.
+                    </p>
+                </div>
+                
+                <div class="what-card animate-on-scroll">
+                    <div class="what-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Agroturismo</h3>
+                    <p>
+                        Modalidade mais específica na qual os visitantes participam diretamente das 
+                        atividades agrícolas: colher frutas, acompanhar a produção de alimentos, 
+                        conhecer animais e aprender sobre o trabalho dos agricultores.
+                    </p>
+                </div>
+                
+                <div class="what-card animate-on-scroll">
+                    <div class="what-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Sustentabilidade</h3>
+                    <p>
+                        A principal característica do agroturismo ecológico é a preocupação com a 
+                        sustentabilidade. As propriedades buscam preservar a natureza, valorizar a 
+                        cultura local e utilizar os recursos naturais de forma responsável.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="section section-benefits" id="beneficios">
+        <div class="container">
+            <div class="benefits-header animate-on-scroll">
+                <span class="section-badge">Vantagens</span>
+                <h2 class="section-title">Benefícios para o Meio Ambiente e Sociedade</h2>
+                <p class="section-description">
+                    O agroturismo ecológico gera impactos positivos em diversas dimensões, 
+                    promovendo um ciclo virtuoso de preservação e desenvolvimento.
+                </p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-number">01</div>
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Conservação Ambiental</h3>
+                    <p>
+                        Incentiva a conservação das áreas naturais, pois a paisagem, as florestas, 
+                        os rios e a biodiversidade tornam-se atrativos turísticos. Os proprietários 
+                        rurais passam a ter mais motivos para preservar o meio ambiente.
+                    </p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-number">02</div>
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/>
+                            <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+                        </svg>
+                    </div>
+                    <h3>Educação Ambiental</h3>
+                    <p>
+                        Contribui para a educação ambiental dos visitantes. Ao conhecerem de perto 
+                        os processos de produção agrícola e a importância da conservação dos recursos 
+                        naturais, os turistas desenvolvem maior consciência ambiental.
+                    </p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-number">03</div>
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+                        </svg>
+                    </div>
+                    <h3>Geração de Renda</h3>
+                    <p>
+                        Gera renda complementar para agricultores familiares. O turismo ajuda a 
+                        diversificar as fontes de renda das propriedades, reduzindo a dependência 
+                        exclusiva da produção agrícola e fortalecendo a economia local.
+                    </p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-number">04</div>
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Valorização Cultural</h3>
+                    <p>
+                        Preserva e valoriza tradições, costumes e saberes locais. As comunidades 
+                        rurais mantêm vivas suas práticas culturais ao compartilhá-las com os 
+                        visitantes, fortalecendo sua identidade.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atividades -->
+    <section class="section section-activities" id="atividades">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <span class="section-badge">Experiências</span>
+                <h2 class="section-title">Principais Atividades do Agroturismo Ecológico</h2>
+                <p class="section-description">
+                    As propriedades que trabalham com agroturismo sustentável oferecem diversas 
+                    atividades que aproximam os visitantes da natureza e da cultura rural.
+                </p>
+            </div>
+            
+            <div class="activities-grid">
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                        </svg>
+                    </div>
+                    <h4>Trilhas Ecológicas</h4>
+                    <p>Caminhadas em meio à natureza com guias especializados</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 007.92 12.446A9 9 0 1112 3z"/>
+                        </svg>
+                    </div>
+                    <h4>Observação de Fauna</h4>
+                    <p>Avistamento de animais silvestres e aves em seu habitat</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a10 10 0 1010 10 4 4 0 01-5-5 4 4 0 01-5-5"/>
+                            <path d="M8.5 8.5v.01"/>
+                            <path d="M16 15.5v.01"/>
+                            <path d="M12 12v.01"/>
+                            <path d="M11 17v.01"/>
+                            <path d="M7 14v.01"/>
+                        </svg>
+                    </div>
+                    <h4>Colheita de Frutas</h4>
+                    <p>Experiência de colher frutas e hortaliças frescas</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 16v-4"/>
+                            <path d="M12 8h.01"/>
+                        </svg>
+                    </div>
+                    <h4>Passeios a Cavalo</h4>
+                    <p>Cavalgadas por trilhas e paisagens rurais</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3v18h18"/>
+                            <path d="M18 17V9"/>
+                            <path d="M13 17V5"/>
+                            <path d="M8 17v-3"/>
+                        </svg>
+                    </div>
+                    <h4>Visitas a Hortas</h4>
+                    <p>Conhecer plantações orgânicas e estufas</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 13.87A4 4 0 017.41 6a5.11 5.11 0 011.05-1.54 5 5 0 017.08 0A5.11 5.11 0 0116.59 6 4 4 0 0118 13.87V21H6z"/>
+                            <line x1="6" y1="17" x2="18" y2="17"/>
+                        </svg>
+                    </div>
+                    <h4>Produção Artesanal</h4>
+                    <p>Fazer queijos, doces, pães e conservas</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h4>Camping Rural</h4>
+                    <p>Hospedagem em meio à natureza</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                    </div>
+                    <h4>Educação Ambiental</h4>
+                    <p>Programas educativos para estudantes</p>
+                </div>
+                
+                <div class="activity-card animate-on-scroll">
+                    <div class="activity-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 3v19"/>
+                            <path d="M5 12H2a10 10 0 0020 0h-3"/>
+                            <path d="M12 3a4 4 0 014 4c0 .87-.28 1.68-.76 2.33"/>
+                        </svg>
+                    </div>
+                    <h4>Práticas Sustentáveis</h4>
+                    <p>Aprender técnicas de agricultura sustentável</p>
+                </div>
+            </div>
+            
+            <div class="cta-box animate-on-scroll">
+                <h3>Pronto para viver essa experiência?</h3>
+                <p>Planeje sua próxima aventura no campo e reconecte-se com a natureza</p>
+                <a href="#contato" class="btn btn-primary btn-lg">Planeje sua Experiência Rural</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desafios e Perspectivas -->
+    <section class="section section-challenges" id="tendencias">
+        <div class="container">
+            <div class="challenges-grid">
+                <div class="challenges-content animate-on-scroll">
+                    <span class="section-badge">Futuro</span>
+                    <h2 class="section-title">Desafios e Perspectivas Futuras</h2>
+                    
+                    <div class="challenge-item">
+                        <h4>Desafios Atuais</h4>
+                        <p>
+                            Apesar do crescimento do turismo rural, alguns desafios ainda precisam ser superados. 
+                            Muitas propriedades necessitam investir em infraestrutura, hospedagem, acessibilidade 
+                            e capacitação dos proprietários para receber turistas. Também é importante garantir 
+                            que o aumento do número de visitantes não provoque impactos negativos ao meio ambiente.
+                        </p>
+                    </div>
+                    
+                    <div class="challenge-item">
+                        <h4>Tendências Futuras</h4>
+                        <p>
+                            A tendência é que o turismo rural sustentável continue crescendo, impulsionado pela 
+                            busca por experiências autênticas, pelo interesse na alimentação saudável e pela 
+                            valorização da preservação ambiental. Muitas propriedades já investem em energia solar, 
+                            reciclagem, reaproveitamento de água e produção orgânica.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="challenges-image animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=500&fit=crop" alt="Agricultura sustentável" loading="lazy">
+                </div>
+            </div>
+            
+            <div class="trends-cards">
+                <div class="trend-card animate-on-scroll">
+                    <div class="trend-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2"/>
+                        </svg>
+                    </div>
+                    <h4>Energia Solar</h4>
+                    <p>Propriedades autossuficientes em energia limpa</p>
+                </div>
+                
+                <div class="trend-card animate-on-scroll">
+                    <div class="trend-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22a7 7 0 007-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 007 7z"/>
+                        </svg>
+                    </div>
+                    <h4>Reaproveitamento de Água</h4>
+                    <p>Sistemas de captação e reutilização</p>
+                </div>
+                
+                <div class="trend-card animate-on-scroll">
+                    <div class="trend-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h4>Produção Orgânica</h4>
+                    <p>Alimentos sem agrotóxicos</p>
+                </div>
+                
+                <div class="trend-card animate-on-scroll">
+                    <div class="trend-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="4 17 10 11 4 5"/>
+                            <line x1="12" y1="19" x2="20" y2="19"/>
+                        </svg>
+                    </div>
+                    <h4>Reciclagem Total</h4>
+                    <p>Zero resíduos nas propriedades</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feed de Notícias -->
+    <section class="section section-news" id="noticias">
+        <div class="container">
+            <div class="news-header animate-on-scroll">
+                <div>
+                    <span class="section-badge">Atualidades</span>
+                    <h2 class="section-title">Feed de Notícias</h2>
+                    <p class="section-description">
+                        Fique por dentro das últimas novidades sobre turismo rural, 
+                        agroturismo e sustentabilidade no Brasil e no mundo.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Filtros de Categoria -->
+            <div class="news-filters animate-on-scroll" id="newsFilters">
+                <button class="filter-btn active" data-category="all">Todas</button>
+                <button class="filter-btn" data-category="sustentabilidade">Sustentabilidade</button>
+                <button class="filter-btn" data-category="destinos">Destinos</button>
+                <button class="filter-btn" data-category="gastronomia">Gastronomia</button>
+                <button class="filter-btn" data-category="educacao">Educação</button>
+            </div>
+            
+            <!-- Grid de Notícias -->
+            <div class="news-grid" id="newsGrid">
+                <!-- Cards serão renderizados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusão -->
+    <section class="section section-conclusion">
+        <div class="container">
+            <div class="conclusion-content animate-on-scroll">
+                <span class="section-badge">Conclusão</span>
+                <h2 class="section-title">Uma Alternativa Sustentável para o Futuro</h2>
+                <div class="conclusion-text">
+                    <p>
+                        O turismo rural e o agroturismo ecológico representam uma alternativa sustentável que 
+                        beneficia tanto os visitantes quanto as comunidades rurais. Essas atividades promovem a 
+                        preservação ambiental, valorizam a cultura local, geram renda para os produtores e ajudam 
+                        a conscientizar a população sobre a importância dos recursos naturais.
+                    </p>
+                    <p>
+                        Ao unir lazer, educação ambiental e desenvolvimento econômico, o agroturismo ecológico 
+                        demonstra que é possível utilizar o meio rural de forma sustentável, contribuindo para 
+                        um futuro mais equilibrado entre produção, turismo e preservação da natureza.
+                    </p>
+                </div>
+                <div class="conclusion-quote">
+                    <blockquote>
+                        "O verdadeiro progresso é aquele que coloca a tecnologia ao alcance de todos 
+                        sem destruir a natureza."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato / Newsletter -->
+    <section class="section section-contact" id="contato">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <span class="section-badge">Contato</span>
+                    <h2 class="section-title">Vamos Conversar</h2>
+                    <p>
+                        Interessado em saber mais sobre turismo rural e agroturismo ecológico? 
+                        Entre em contato conosco ou assine nossa newsletter para receber as 
+                        melhores dicas e novidades.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>contato@agroturismobrasil.com.br</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>São Paulo, Brasil</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper animate-on-scroll">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Receba Nossas Novidades</h3>
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Interesse Principal</label>
+                            <select id="interest" name="interest">
+                                <option value="">Selecione uma opção</option>
+                                <option value="hospedagem">Hospedagem Rural</option>
+                                <option value="atividades">Atividades ao Ar Livre</option>
+                                <option value="gastronomia">Gastronomia Regional</option>
+                                <option value="educacao">Educação Ambiental</option>
+                                <option value="todos">Todos os Temas</option>
+                            </select>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">Aceito receber e-mails com novidades e ofertas</label>
+                            <span class="error-message" id="termsError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Inscrever-se</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </button>
+                        <p class="form-note">Você pode cancelar a inscrição a qualquer momento.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#inicio" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 8C20 8 12 16 12 22C12 26.4183 15.5817 30 20 30C24.4183 30 28 26.4183 28 22C28 16 20 8 20 8Z" fill="currentColor"/>
+                            <path d="M20 14V26M16 20H24" stroke="var(--bg-primary)" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <span class="logo-text">AgroTurismo <span>Brasil</span></span>
+                    </a>
+                    <p>
+                        Conectando pessoas à natureza através de experiências 
+                        autênticas e sustentáveis no campo brasileiro.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="var(--bg-primary)"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#beneficios">Benefícios</a></li>
+                        <li><a href="#atividades">Atividades</a></li>
+                        <li><a href="#noticias">Notícias</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Guia de Viagem</a></li>
+                        <li><a href="#">Mapa de Fazendas</a></li>
+                        <li><a href="#">Calendário de Eventos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">LGPD</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AgroTurismo Brasil. Todos os direitos reservados.</p>
+                <p>Desenvolvido com carinho pelo campo brasileiro.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            <span class="toast-message" id="toastMessage"></span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
