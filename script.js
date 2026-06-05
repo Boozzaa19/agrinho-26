@@ -34,93 +34,84 @@ const toastMessage = document.getElementById('toastMessage');
 const newsData = [
     {
         id: 1,
-        title: "Cresce o número de fazendas com certificação de turismo sustentável no Brasil",
-        excerpt: "Mais de 200 propriedades rurais obtiveram o selo de sustentabilidade em 2024, marcando um crescimento de 35% em relação ao ano anterior.",
+        title: "Turismo rural cresce no Brasil com 10 mil empreendimentos em 16 estados",
+        excerpt: "O Brasil já soma mais de 10 mil empreendimentos voltados ao turismo rural, presentes em pelo menos 16 estados, segundo levantamento recente do setor. O crescimento é impulsionado pela busca por experiências autênticas fora dos grandes centros urbanos. (Fonte: A Gazeta / Ruraltur 2026)",
         category: "sustentabilidade",
-        date: "15 de Janeiro, 2024",
-        image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=250&fit=crop",
-        link: "#"
+        date: "Abril, 2026",
+        image: "img/news1_sustentabilidade.jpg",
+        link: "https://www.agazeta.com.br/artigos/turismo-rural-cresce-no-brasil-e-ruraltur-2026-coloca-es-em-destaque-0426"
     },
     {
         id: 2,
-        title: "Serra Gaúcha se destaca como destino de enoturismo ecológico",
-        excerpt: "Vinícolas da região investem em práticas sustentáveis e oferecem experiências imersivas aos visitantes, combinando degustação e educação ambiental.",
+        title: "Chapada dos Veadeiros amplia trilhas e hospedagens sustentáveis",
+        excerpt: "A partir de 2024, novas trilhas com pontos de apoio e informações ambientais foram abertas no Parque Nacional da Chapada dos Veadeiros. Novas hospedagens com certificações ecológicas e energia solar surgem na região de Alto Paraíso e Cavalcante. (Fonte: Correio Braziliense, 2025)",
         category: "destinos",
-        date: "12 de Janeiro, 2024",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop",
-        link: "#"
+        date: "Junho, 2025",
+        image: "img/news2_destinos.jpg",
+        link: "https://www.correiobraziliense.com.br/cbradar/o-que-mudou-na-chapada-dos-veadeiros-e-por-que-visitar-em-2025/"
     },
     {
         id: 3,
-        title: "Gastronomia rural: chefs apostam em ingredientes locais e orgânicos",
-        excerpt: "Movimento farm-to-table ganha força no interior paulista, com restaurantes que colhem ingredientes diretamente das hortas das fazendas.",
+        title: "Queijo Minas Artesanal é reconhecido como Patrimônio Imaterial da Humanidade pela UNESCO",
+        excerpt: "Em dezembro de 2024, durante a 19ª Sessão do Comitê da UNESCO em Assunção, os modos de fazer o Queijo Minas Artesanal foram inscritos como Patrimônio Cultural Imaterial da Humanidade — um impulso direto ao turismo gastronômico da Serra da Canastra. (Fonte: Agência Brasil / Wikipedia, 2024)",
         category: "gastronomia",
-        date: "10 de Janeiro, 2024",
-        image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&h=250&fit=crop",
-        link: "#"
+        date: "Dezembro, 2024",
+        image: "img/news3_gastronomia.jpg",
+        link: "https://www.em.com.br/turismo/2024/07/6889324-outrora-traficado-queijo-canastra-rompe-barreiras-e-ganha-o-mundo.html"
     },
     {
         id: 4,
-        title: "Escolas adotam visitas a fazendas como parte do currículo",
-        excerpt: "Programas de educação ambiental em propriedades rurais ajudam crianças a entender a origem dos alimentos e a importância da preservação.",
-        category: "educacao",
-        date: "8 de Janeiro, 2024",
-        image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=400&h=250&fit=crop",
-        link: "#"
+        title: "Nova Lei Geral do Turismo permite registro de agricultores familiares no Cadastur",
+        excerpt: "Sancionada em novembro de 2024, a nova Lei Geral do Turismo permite que produtores rurais e agricultores familiares se registrem oficialmente no Cadastur, abrindo acesso a crédito, qualificação e comercialização legal de suas experiências turísticas. (Fonte: Portal CNA Brasil, 2024)",
+        category: "negocios",
+        date: "Novembro, 2024",
+        image: "img/news4_educacao.jpg",
+        link: "https://www.cnabrasil.org.br/noticias/turismo-rural-impulsiona-economia-local"
     },
     {
         id: 5,
-        title: "Energia solar revoluciona propriedades de agroturismo",
-        excerpt: "Fazendas que adotaram sistemas fotovoltaicos reduzem custos em até 80% e atraem turistas conscientes com práticas verdes.",
+        title: "Chapada dos Veadeiros: 60% dos produtos vendidos no parque são de produção local",
+        excerpt: "Dados da administração do Parque Nacional da Chapada dos Veadeiros mostram que cerca de 60% dos produtos comercializados nos quiosques e lojas são de produtores locais, fortalecendo a economia regional e o agroturismo sustentável. (Fonte: Tribuna Ribeirão, 2026)",
         category: "sustentabilidade",
-        date: "5 de Janeiro, 2024",
-        image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=250&fit=crop",
-        link: "#"
+        date: "Fevereiro, 2026",
+        image: "img/news5_solar.jpg",
+        link: "https://www.tribunaribeirao.com.br/chapada-dos-veadeiros-alia-conservacao-ambiental-e-desenvolvimento-regional/"
     },
     {
         id: 6,
-        title: "Pantanal oferece experiências únicas de turismo rural sustentável",
-        excerpt: "Pousadas pantaneiras combinam safáris fotográficos, pesca sustentável e vivência com a cultura ribeirinha em pacotes ecoturísticos.",
+        title: "Pantanal combina safári fotográfico e cultura ribeirinha no ecoturismo",
+        excerpt: "Pousadas pantaneiras consolidam pacotes que unem safáris fotográficos, pesca sustentável e vivência com comunidades ribeirinhas. A região é reconhecida como um dos destinos mais singulares do turismo de natureza no Brasil. (Fonte: Sebrae)",
         category: "destinos",
-        date: "3 de Janeiro, 2024",
-        image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&h=250&fit=crop",
-        link: "#"
+        date: "2024",
+        image: "img/news6_pantanal.jpg",
+        link: "https://sebrae.com.br/sites/PortalSebrae/artigos/agroturismo-no-brasil-vivencias-unicas,d1cfda71a0122810VgnVCM100000d701210aRCRD"
     },
     {
         id: 7,
-        title: "Queijos artesanais mineiros conquistam certificação internacional",
-        excerpt: "Produtores da Serra da Canastra investem em turismo gastronômico e recebem reconhecimento por métodos tradicionais e sustentáveis.",
+        title: "Canastra bate recorde no Mondial du Fromage 2023 com 82 medalhas brasileiras",
+        excerpt: "No Mondial du Fromage 2023, realizado em Tours, na França, o Brasil bateu seu próprio recorde com 82 medalhas, sendo 18 de ouro. Produtores da Serra da Canastra estiveram entre os premiados, impulsionando o turismo gastronômico da região. (Fonte: Serra da Canastra / Folha Regional, 2023)",
         category: "gastronomia",
-        date: "1 de Janeiro, 2024",
-        image: "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=400&h=250&fit=crop",
-        link: "#"
-    },
-    {
-        id: 8,
-        title: "Universidades criam cursos de capacitação em turismo rural",
-        excerpt: "Novas graduações e especializações preparam profissionais para atuar no setor que mais cresce no turismo brasileiro.",
-        category: "educacao",
-        date: "28 de Dezembro, 2023",
-        image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=250&fit=crop",
-        link: "#"
+        date: "Setembro, 2023",
+        image: "img/news7_queijos.jpg",
+        link: "https://www.serradacanastra.com.br/noticias/mondial-du-fromage-2023-produtores-da-serra-da-canastra-sao-premiados-em-concurso-internacional-de-queijo-realizado-na-franca"
     },
     {
         id: 9,
-        title: "Startup brasileira cria app para conectar turistas a fazendas sustentáveis",
-        excerpt: "Plataforma digital facilita reservas e avaliações, impulsionando o agroturismo ecológico em todo o país.",
+        title: "74% dos turistas brasileiros escolhem o interior do país como destino",
+        excerpt: "Pesquisa da Mind Miners mostra que 61% dos brasileiros preferem viagens domésticas, e desses, 74% escolhem o interior como destino, valorizando paz, práticas sustentáveis e contato com a natureza. (Fonte: Nuestra America / Mind Miners, 2024)",
         category: "sustentabilidade",
-        date: "25 de Dezembro, 2023",
-        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop",
-        link: "#"
+        date: "Dezembro, 2024",
+        image: "img/news9_startup.jpg",
+        link: "https://nuestraamerica.com.br/cresce-turismo-rural-no-brasil/"
     },
     {
         id: 10,
-        title: "Chapada dos Veadeiros: o paraíso do ecoturismo brasileiro",
-        excerpt: "Região recebe investimentos em infraestrutura sustentável e se consolida como referência em turismo de natureza responsável.",
-        category: "destinos",
-        date: "22 de Dezembro, 2023",
-        image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=400&h=250&fit=crop",
-        link: "#"
+        title: "Brasil recebe 6,65 milhões de turistas internacionais em 2024",
+        excerpt: "O setor de turismo no Brasil cresceu 12,6% em 2024, com 6,65 milhões de visitantes internacionais e mais de US$ 6,6 bilhões em receitas. O ambiente favorável impulsiona também o agroturismo, segmento de alto potencial segundo especialistas. (Fonte: AgroAdvance / Portal CNA, 2025)",
+        category: "negocios",
+        date: "2025",
+        image: "img/news10_chapada.jpg",
+        link: "https://agroadvance.com.br/blog-turismo-rural-agroturismo/"
     }
 ];
 

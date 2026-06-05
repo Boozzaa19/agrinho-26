@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     padding-top: var(--header-height);
     background: 
-        url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80') 
+        url('../img/news1_sustentabilidade.jpg') 
         center/cover no-repeat;
     overflow: hidden;
 }
@@ -1624,6 +1624,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hero elements always visible (já estão na viewport no carregamento) */
+.hero .animate-on-scroll {
     opacity: 1;
     transform: translateY(0);
 }
